@@ -4,9 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="image/download.jpeg" type="image/x-icon">
+    <title>DocMent</title>
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="left">
+            <img src="image/download.jpeg" class="pfp">
+            <p>Facebook</p>
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="" class="btn">Hire Me</a>
+        </div>
+    </div>
 </body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat',sans-serif;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+        background-color: #563d7c;
+        color: #fff;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1em;
+        font-weight: bold;
+    }
+    .pfp{
+        width: 20%;
+        border-radius: 50%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        gap: 2em;
+    }
+    li{
+        list-style-type:none;
+    }
+    .btn{
+        font-weight: bold;
+        background-color: yellow;
+        color: black;
+        padding: 0.5em 1em;
+        border-radius: 0.2em;
+    }
+</style>
 </html>
